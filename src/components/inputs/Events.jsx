@@ -16,12 +16,14 @@ class Events extends Component {
     };
 
     render() {
-        return (
+        return this.props.loading 
+        ? <p>carregando...</p> 
+        : (
             <div>
                 {this.props.categories.map((category, index) => {
                     return (
                         <div key={index}>
-                            {category.name}
+                            {category.visible ? category.name : "Test"}
                             <img src={category.image} className="image"/>
                         </div>
                     );

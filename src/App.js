@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <InputField placeholder="Busque por item ou loja"/>  
       <InputField placeholder="Bucar por categoria"/>
-      <Events categories={categories}/>
+      <Events loading={false} categories={categories}/>
     </div>
   );
 }

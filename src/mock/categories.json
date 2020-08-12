@@ -1,10 +1,13 @@
 [{
     "name": "Doces e Bolos",
+    "visible": true,
     "image": "https://res.cloudinary.com/luneswallet/image/upload/v1597260367/curso-react/merchants/beer.jpg"
 }, {
     "name": "Salgados",
+    "visible": false,
     "image": "https://res.cloudinary.com/luneswallet/image/upload/v1597258932/curso-react/merchants/202008110004_6wez_i.webp"
 }, {
     "name": "Bebidas",
+    "visible": true,
     "image": "https://res.cloudinary.com/luneswallet/image/upload/v1597258931/curso-react/merchants/55cec7db-21f6-4b18-b89e-28a79337e805_COCOB_RELES.webp"
 }]
