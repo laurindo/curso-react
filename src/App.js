@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './resources/images/logo.svg';
+import './resources/styles/App.css';
+import InputField from './components/inputs/InputField';
+import Events from './components/inputs/Events';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <InputField placeholder="Busque por item ou loja"/>  
+      <InputField placeholder="Bucar por categoria"/>
+      <Events/>
     </div>
   );
 }
