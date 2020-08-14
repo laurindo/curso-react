@@ -1,0 +1,21 @@
+.delivery-label {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.delivery-label .time, .delivery-label .tax, .delivery-label .bull {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: lighter;
+    color: #717171;
+    margin: 0;
+}
+
+.delivery-label .time {
+    margin-right: 5px;
+}
+
+.delivery-label .tax {
+    margin-left: 5px;
+}

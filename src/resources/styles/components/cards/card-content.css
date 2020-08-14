@@ -1,0 +1,19 @@
+.card-content {
+    margin-bottom: 23px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.card-content .title {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 9px;
+    color: #3e3e3e;
+}
+
+.card-content .description {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #717171;
+    word-break: break-word;
+}

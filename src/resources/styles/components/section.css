@@ -1,0 +1,26 @@
+.section {
+    width: 100%;
+    max-width: 1366px!important;
+    margin: auto;
+}
+
+.section .header {
+    padding: 10px;
+}
+
+.section .content {
+    
+}
+
+.section h1 {
+    color: #3e3e3e;
+    font-size: 1.5625rem;
+    margin-bottom: 0;
+}
+
+.section p {
+    color: #717171;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 5px;
+}
