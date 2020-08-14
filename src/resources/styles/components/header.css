@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid 1px #e8e8e8;
+    margin-bottom: 10px;
+}
+
+.search-delivery {
+    display: flex;
+    align-items: center;
+}
+
+.search-delivery .input-field {
+    margin-right: 30px;
+}

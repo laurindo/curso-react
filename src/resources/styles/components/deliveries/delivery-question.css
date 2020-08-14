@@ -1,0 +1,33 @@
+.delivery-question .title {
+    text-transform: uppercase;
+    color: #a6a5a5;
+    margin: 0 0 5px 0;
+}
+
+.delivery-question .pin-icon {
+    width: 14px;
+}
+
+.delivery-question .arrow-icon {
+    width: 10px;
+}
+
+.delivery-question .pin-icon {
+    margin-right: 5px;
+}
+
+.delivery-question .info {
+    display: flex;
+    cursor: pointer;
+}
+
+.delivery-question .address {
+    display: flex;
+    align-items: center;
+    color: #3e3e3e;
+}
+
+.delivery-question .address label {
+    margin-right: 5px;
+    cursor: pointer;
+}
