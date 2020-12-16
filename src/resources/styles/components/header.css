@@ -1,10 +1,13 @@
 header {
+    border-bottom: solid 1px #e8e8e8;
+    margin-bottom: 10px;
+}
+
+header .limit-width {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-bottom: solid 1px #e8e8e8;
-    margin-bottom: 10px;
 }
 
 .search-delivery {
@@ -14,4 +17,8 @@ header {
 
 .search-delivery .input-field {
     margin-right: 30px;
+}
+
+.container-bag {
+    position: relative;
 }

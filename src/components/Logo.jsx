@@ -6,10 +6,9 @@ class Logo extends Component {
         return (
             <div className="logo">
                 <img 
-                    src="https://res.cloudinary.com/luneswallet/image/upload/v1597408596/curso-react/logo/food-delivery.png" 
+                    src="https://res.cloudinary.com/luneswallet/image/upload/v1597583374/curso-react/logo/logo-delivery-food.png" 
                     alt="logo da empresa"
                 />
-                <small>Delivery Food</small>
             </div>
         );
     }

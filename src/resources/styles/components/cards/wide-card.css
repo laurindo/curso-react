@@ -1,0 +1,41 @@
+.wide-card-container .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-gap: 20px;
+}
+
+.wide-card {
+    border: 1px dotted #f2f2f2;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    border-radius: 4px;
+}
+
+.wide-card .content {
+    display: grid;
+    height: 130px;
+    grid-template-columns: 85px 2fr;
+    grid-column-gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.wide-card .title {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #3e3e3e;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    height: 18px;
+}
+
+.wide-card .card-media img {
+    height: 85px;
+    border-radius: 4px;
+}

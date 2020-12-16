@@ -9,7 +9,7 @@ class Nav extends Component {
                     {this.props.items.map((item, index) => (
                         <li key={index}>
                             <item.icon/>
-                            <a href="#">{item.value}</a>
+                            <a onClick={item.onClick}>{item.value}</a>
                         </li>
                     ))}
                 </ul>

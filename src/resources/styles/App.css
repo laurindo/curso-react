@@ -5,3 +5,9 @@
   display: -webkit-box;
   -webkit-line-clamp: 2;
 }
+
+.limit-width {
+  width: 100%;
+  max-width: 1366px!important;
+  margin: auto;
+}

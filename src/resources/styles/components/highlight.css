@@ -1,0 +1,11 @@
+.highlight {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.highlight img {
+    width: 100%;
+    margin-right: 5px;
+    border-radius: 5px;
+}

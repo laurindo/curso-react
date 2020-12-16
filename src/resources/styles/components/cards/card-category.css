@@ -1,0 +1,15 @@
+.category-card {
+    margin: 0 5px;
+    height: 110px;
+    text-align: center;
+    color: #717171;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    color: #4f4f4f;
+}
+
+.category-card img {
+    border-radius: 5px!important;
+}

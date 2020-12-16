@@ -4,7 +4,7 @@ import "../../resources/styles/components/cards/card.css";
 class Card extends Component {
     render() {
         return (
-            <div className="card">
+            <div className={`card ${this.props.className}`}>
                 {this.props.children}
             </div>
         );

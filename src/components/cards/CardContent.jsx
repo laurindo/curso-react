@@ -7,6 +7,7 @@ class CardContent extends Component {
             <div className="card-content">
                 <h3 className="title">{this.props.title}</h3>
                 <p className="description truncate">{this.props.description}</p>
+                {this.props.children}
             </div>
         );
     }

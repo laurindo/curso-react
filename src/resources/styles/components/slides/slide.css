@@ -1,0 +1,11 @@
+.slide {
+    padding: 0 30px;
+}
+
+.slide .slick-arrow::before {
+    color: #afaeae;
+}
+
+.slide .slide-card {
+    margin-right: 10px;
+}
